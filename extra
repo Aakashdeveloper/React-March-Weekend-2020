@@ -1,0 +1,110 @@
+React - 3  
+React-Redux- 2
+React Hooks -1(useState,useeffect,useContext)
+React-Graphql-Apollo-1
+React-JWT -1
+React Native(basic)-1
+--------------------------
+Testing
+---------------
+Deployment
+> MERN
+> Docker
+> Nginx
+---------------
+Github
+----------------
+Not going to make API-Data/JWT/Graphql
+
+--------------
+HTML/Css/JavaScript
+
+
+> 1hr30min
+> GET PoST
+
+
+Component
+------------------------------------- 
+Functional                 | ClassBase
+Light in weight              Heavy as compare to Functional
+Dumb                         Logical Component
+Display                      Logic
+stateless                    Statetfull
+Cannot Maintain state        Can Maintain State
+
+State  Local variable(any data interaction)
+
+                1          
+Component A    =====>      Component B
+state=1        props       State=1
+
+Props
+
+/*NPM*/
+node pacakge manager
+package.json
+
+Local
+global
+
+
+/*****************
+Step to create package.json
+*******************/
+#NodeJs must be installed in system
+> Navigate to the folder where you want to generate app
+> npm init
+> answer all question
+> Type "yes"
+
+
+npm i <packgename>
+
+#Win
+run cmd as admin
+npm i -g create-react-app
+
+
+#mac
+open terminal
+sudo npm i -g create-react-app
+
+/*****************
+Step to generate React Application
+*******************/
+
+###One Time####
+#Win
+run cmd as admin
+npm i -g create-react-app
+
+
+#mac
+open terminal
+sudo npm i -g create-react-app
+
+###All Next Time####
+> Navigate to the folder where you want to generate app
+> create-react-app myapp
+> cd myapp
+> npm start
+
+#Map
+#filter in JavaScript
+
+
+
+Webpack
+Babel
+
+
+function test(){
+    var my = [a,b]
+    return my
+}
+
+
+tagname
+Class
+id 
