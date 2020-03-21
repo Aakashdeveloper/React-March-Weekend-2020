@@ -108,3 +108,15 @@ function test(){
 tagname
 Class
 id 
+
+
+
+var a =  [10,2,30,43,24,82,45,23,12,56,85]
+a.filter((data) => { return data>50})
+
+
+npm i react-router-dom
+
+
+npm i -g json-server
+json-server --watch db.json --port 8900
