@@ -1,6 +1,7 @@
 import React from 'react';
+//var React = require('react');
 
-const Home = () => {
+function Home(){
     return(
         <React.Fragment>
             <div class="panel panel-primary">
@@ -11,4 +12,5 @@ const Home = () => {
     )
 }
 
+//module.exports = Home;
 export default Home;

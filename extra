@@ -120,3 +120,11 @@ npm i react-router-dom
 
 npm i -g json-server
 json-server --watch db.json --port 8900
+
+var a = 10
+var b = "10"
+
+a==b 
+true
+a===b
+false

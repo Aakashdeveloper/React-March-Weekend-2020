@@ -9,11 +9,18 @@ const DisplayPost = (props) => {
                 return(
                     <div key={item.id}>
                         <h2>{item.name}</h2>
-                        <Link to='/'>Details</Link>
+                        <Link to={`/post/${item.id}`}>Details</Link>
                     </div>
                 )
             })
-        }            
+        }
+        if(!topicdata){
+            return(
+                <div>
+                    <h1>loading....</h1>
+                </div>
+            )
+        }       
     }
 
     return(
