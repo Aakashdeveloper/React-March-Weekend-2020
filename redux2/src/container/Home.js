@@ -15,9 +15,12 @@ class Home extends Component {
     }
    
     componentDidMount(){
-        this.props.latestNews();
-        this.props.articleNews();
-        this.props.galleryNews();
+
+            this.props.latestNews();
+            this.props.articleNews();
+            this.props.galleryNews();
+        
+       
 
     }
     render(){
