@@ -2,6 +2,7 @@ React - 3
 React-Redux- 2
 React Hooks -1(useState,useeffect,useContext)
 React-Graphql-Apollo-1
+---------------------------------------
 React-JWT -1
 React Native(basic)-1
 --------------------------
@@ -128,3 +129,21 @@ a==b
 true
 a===b
 false
+
+
+/******GetUser*****/
+(GET)> http://localhost:5000/api/auth/users
+
+/******Register*****/
+(POST)> http://localhost:5000/api/auth/register
+(body) => {"name":"Aakash", "email":"aa@gmail.com","password":"12345678","role":"admin"}
+
+
+/******Login*****/
+(POST) => http://localhost:5000/api/auth/login
+(body)  => {"email":"aa@gmail.com","password":"12345678"}
+(response)=> {auth:true,Token:''}
+
+/******UserInfo*****/
+(GET) => http://localhost:5000/api/auth/userinfo
+(Header) => {'x-access-token':'token value from login'}
