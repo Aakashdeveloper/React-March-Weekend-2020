@@ -2,8 +2,8 @@ React - 3
 React-Redux- 2
 React Hooks -1(useState,useeffect,useContext)
 React-Graphql-Apollo-1
+React-JWT -1React-JWT -1
 ---------------------------------------
-React-JWT -1
 React Native(basic)-1
 --------------------------
 Testing
@@ -147,3 +147,49 @@ false
 /******UserInfo*****/
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
+
+
+> npm i -g create-react-native-app
+> create-react-native-app mobileapp
+> expo
+> install yarn
+
+////Production////
+npm run build
+
+
+docker build . -t weekendreact
+docker image ls 
+docker run -p 8086:3000 weekendreact
+
+
+
+//nginx.conf
+ server {
+        listen       8081;
+        server_name  localhost;
+
+        location / {
+            root   /var/www/react-app;
+            index  index.html index.htm;
+        }
+    }
+
+server {
+    #    listen       443 ssl;
+    #    server_name  localhost;
+
+    #    ssl_certificate      cert.pem;
+    #    ssl_certificate_key  cert.key;
+
+    #    ssl_session_cache    shared:SSL:1m;
+    #    ssl_session_timeout  5m;
+
+    #    ssl_ciphers  HIGH:!aNULL:!MD5;
+    #    ssl_prefer_server_ciphers  on;
+
+    #    location / {
+    #        root   html;
+    #        index  index.html index.htm;
+    #    }
+    #}
