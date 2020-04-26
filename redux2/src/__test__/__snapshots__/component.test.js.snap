@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Component Testiing footer 1`] = `
+<header>
+  <div>
+    <hr />
+    © Visual Paths
+  </div>
+</header>
+`;

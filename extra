@@ -3,7 +3,6 @@ React-Redux- 2
 React Hooks -1(useState,useeffect,useContext)
 React-Graphql-Apollo-1
 React-JWT -1React-JWT -1
----------------------------------------
 React Native(basic)-1
 --------------------------
 Testing
@@ -150,6 +149,7 @@ false
 
 
 > npm i -g create-react-native-app
+> npm i -g expo-cli
 > create-react-native-app mobileapp
 > expo
 > install yarn
@@ -193,3 +193,5 @@ server {
     #        index  index.html index.htm;
     #    }
     #}
+
+npm i react-test-renderer react-addoons-test-utils enzyme-adapter-react-16
